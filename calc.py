@@ -46,7 +46,7 @@ btn2=Button(calc,padx=16,pady=16,bd=8, fg="black",font=('roboto', 20,'bold'), te
 
 btn3=Button(calc,padx=16,pady=16,bd=8, fg="black",font=('roboto', 20,'bold'), text="3",  bg="powder blue",command=lambda:btnClick(3)).grid(row=3, column=2)
 
-Multiplication=Button(calc,padx=16,pady=16,bd=8, fg="black",font=('roboto', 20,'bold'), text="x",  bg="powder blue",command=lambda:btnClick("x")).grid(row=3, column=3)
+Multiplication=Button(calc,padx=16,pady=16,bd=8, fg="black",font=('roboto', 20,'bold'), text="*",  bg="powder blue",command=lambda:btnClick("*")).grid(row=3, column=3)
 
 btn0=Button(calc,padx=16,pady=16,bd=8, fg="black",font=('roboto', 20,'bold'), text="0",  bg="powder blue",command=lambda:btnClick(0)).grid(row=4, column=0)
 
